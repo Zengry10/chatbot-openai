@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: screen;
+  }
+  
+  .container__chat-box{
+    width: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+  }
+  
+  .container__chat-box__title {
+    text-align: center;
+    background: linear-gradient(90deg, #FE5656 0%, #FF8E8F 100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container__chat-box__input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .container__chat-box__input {
+    width: calc(100% - 24px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin: 0px;
+    height: 10px;
+    border: none;
+    background-color: white;
+  }
+  
+  .container__chat-box__container-input-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .container__chat-box__container-input-button__button {
+    height: 20px;
+  }
+  
+  .container__chat-box__soucontainer {
+    padding: 0px 5px;
+  }
+  
+  .container__chat-box__container-input-button_souscontainer {
+    width: 90%;
+    border: 2px solid #e9e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .buttonSend {
+    cursor: pointer;
+  }
+  
+  .container__chat-box__soucontainer__question-container {
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    width: fit-content;
+    margin-bottom: 10px;
+    height: fit-content;
+    margin-right: 80px;
+  }
+  
+  .container__chat-box__soucontainer__response-container {
+    background-color: #CCCFCE;
+    border-radius: 15px;
+    width: fit-content;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    height: fit-content;
+  }
+  
+  .container__chat-box__soucontainer__response-container__reel-response{
+    margin: 0px;
+    padding: 10px;
+  }
+  
+  .container__chat-box__soucontainer__response-container__reel-question {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container__chat-box__soucontainer__response-height {
+    height: 240px;
+    overflow-y: scroll;
+    padding: 0px 20px;
+  }
